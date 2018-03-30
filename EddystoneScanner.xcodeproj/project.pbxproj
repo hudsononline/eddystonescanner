@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846B15A7206EC3C200979E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B15A6206EC3C200979E24 /* AppDelegate.swift */; };
+		846B15A9206EC3C200979E24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B15A8206EC3C200979E24 /* ViewController.swift */; };
+		846B15AC206EC3C200979E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B15AA206EC3C200979E24 /* Main.storyboard */; };
+		846B15AE206EC3C400979E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846B15AD206EC3C400979E24 /* Assets.xcassets */; };
+		846B15B1206EC3C400979E24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B15AF206EC3C400979E24 /* LaunchScreen.storyboard */; };
+		846B15BC206EC3C400979E24 /* EddystoneScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B15BB206EC3C400979E24 /* EddystoneScannerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846B15B8206EC3C400979E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846B159B206EC3C200979E24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846B15A2206EC3C200979E24;
+			remoteInfo = EddystoneScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846B15A3206EC3C200979E24 /* EddystoneScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EddystoneScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846B15A6206EC3C200979E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846B15A8206EC3C200979E24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		846B15AB206EC3C200979E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846B15AD206EC3C400979E24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846B15B0206EC3C400979E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846B15B2206EC3C400979E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846B15B7206EC3C400979E24 /* EddystoneScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EddystoneScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846B15BB206EC3C400979E24 /* EddystoneScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EddystoneScannerTests.swift; sourceTree = "<group>"; };
+		846B15BD206EC3C400979E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846B15A0206EC3C200979E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846B15B4206EC3C400979E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846B159A206EC3C200979E24 = {
+			isa = PBXGroup;
+			children = (
+				846B15A5206EC3C200979E24 /* EddystoneScanner */,
+				846B15BA206EC3C400979E24 /* EddystoneScannerTests */,
+				846B15A4206EC3C200979E24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846B15A4206EC3C200979E24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846B15A3206EC3C200979E24 /* EddystoneScanner.app */,
+				846B15B7206EC3C400979E24 /* EddystoneScannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846B15A5206EC3C200979E24 /* EddystoneScanner */ = {
+			isa = PBXGroup;
+			children = (
+				846B15A6206EC3C200979E24 /* AppDelegate.swift */,
+				846B15A8206EC3C200979E24 /* ViewController.swift */,
+				846B15AA206EC3C200979E24 /* Main.storyboard */,
+				846B15AD206EC3C400979E24 /* Assets.xcassets */,
+				846B15AF206EC3C400979E24 /* LaunchScreen.storyboard */,
+				846B15B2206EC3C400979E24 /* Info.plist */,
+			);
+			path = EddystoneScanner;
+			sourceTree = "<group>";
+		};
+		846B15BA206EC3C400979E24 /* EddystoneScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				846B15BB206EC3C400979E24 /* EddystoneScannerTests.swift */,
+				846B15BD206EC3C400979E24 /* Info.plist */,
+			);
+			path = EddystoneScannerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846B15A2206EC3C200979E24 /* EddystoneScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846B15C0206EC3C400979E24 /* Build configuration list for PBXNativeTarget "EddystoneScanner" */;
+			buildPhases = (
+				846B159F206EC3C200979E24 /* Sources */,
+				846B15A0206EC3C200979E24 /* Frameworks */,
+				846B15A1206EC3C200979E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EddystoneScanner;
+			productName = EddystoneScanner;
+			productReference = 846B15A3206EC3C200979E24 /* EddystoneScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846B15B6206EC3C400979E24 /* EddystoneScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846B15C3206EC3C400979E24 /* Build configuration list for PBXNativeTarget "EddystoneScannerTests" */;
+			buildPhases = (
+				846B15B3206EC3C400979E24 /* Sources */,
+				846B15B4206EC3C400979E24 /* Frameworks */,
+				846B15B5206EC3C400979E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846B15B9206EC3C400979E24 /* PBXTargetDependency */,
+			);
+			name = EddystoneScannerTests;
+			productName = EddystoneScannerTests;
+			productReference = 846B15B7206EC3C400979E24 /* EddystoneScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846B159B206EC3C200979E24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Qingyun Xiu";
+				TargetAttributes = {
+					846B15A2206EC3C200979E24 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					846B15B6206EC3C400979E24 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 846B15A2206EC3C200979E24;
+					};
+				};
+			};
+			buildConfigurationList = 846B159E206EC3C200979E24 /* Build configuration list for PBXProject "EddystoneScanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846B159A206EC3C200979E24;
+			productRefGroup = 846B15A4206EC3C200979E24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846B15A2206EC3C200979E24 /* EddystoneScanner */,
+				846B15B6206EC3C400979E24 /* EddystoneScannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846B15A1206EC3C200979E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846B15B1206EC3C400979E24 /* LaunchScreen.storyboard in Resources */,
+				846B15AE206EC3C400979E24 /* Assets.xcassets in Resources */,
+				846B15AC206EC3C200979E24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846B15B5206EC3C400979E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846B159F206EC3C200979E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846B15A9206EC3C200979E24 /* ViewController.swift in Sources */,
+				846B15A7206EC3C200979E24 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846B15B3206EC3C400979E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846B15BC206EC3C400979E24 /* EddystoneScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846B15B9206EC3C400979E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846B15A2206EC3C200979E24 /* EddystoneScanner */;
+			targetProxy = 846B15B8206EC3C400979E24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846B15AA206EC3C200979E24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846B15AB206EC3C200979E24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846B15AF206EC3C400979E24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846B15B0206EC3C400979E24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846B15BE206EC3C400979E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846B15BF206EC3C400979E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846B15C1206EC3C400979E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3BWQUB8WH;
+				INFOPLIST_FILE = EddystoneScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.hudsononline.EddystoneScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846B15C2206EC3C400979E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3BWQUB8WH;
+				INFOPLIST_FILE = EddystoneScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.hudsononline.EddystoneScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		846B15C4206EC3C400979E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3BWQUB8WH;
+				INFOPLIST_FILE = EddystoneScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.hudsononline.EddystoneScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EddystoneScanner.app/EddystoneScanner";
+			};
+			name = Debug;
+		};
+		846B15C5206EC3C400979E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3BWQUB8WH;
+				INFOPLIST_FILE = EddystoneScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.hudsononline.EddystoneScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EddystoneScanner.app/EddystoneScanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846B159E206EC3C200979E24 /* Build configuration list for PBXProject "EddystoneScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846B15BE206EC3C400979E24 /* Debug */,
+				846B15BF206EC3C400979E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846B15C0206EC3C400979E24 /* Build configuration list for PBXNativeTarget "EddystoneScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846B15C1206EC3C400979E24 /* Debug */,
+				846B15C2206EC3C400979E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846B15C3206EC3C400979E24 /* Build configuration list for PBXNativeTarget "EddystoneScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846B15C4206EC3C400979E24 /* Debug */,
+				846B15C5206EC3C400979E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846B159B206EC3C200979E24 /* Project object */;
+}
