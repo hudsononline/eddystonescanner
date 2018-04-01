@@ -13,6 +13,9 @@
 		846B15AE206EC3C400979E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846B15AD206EC3C400979E24 /* Assets.xcassets */; };
 		846B15B1206EC3C400979E24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B15AF206EC3C400979E24 /* LaunchScreen.storyboard */; };
 		846B15BC206EC3C400979E24 /* EddystoneScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B15BB206EC3C400979E24 /* EddystoneScannerTests.swift */; };
+		846B15CB206EC50700979E24 /* DispatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B15C8206EC50700979E24 /* DispatchTimer.swift */; };
+		846B15CC206EC50700979E24 /* Eddystone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B15C9206EC50700979E24 /* Eddystone.swift */; };
+		846B15CD206EC50700979E24 /* BeaconScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B15CA206EC50700979E24 /* BeaconScanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		846B15B7206EC3C400979E24 /* EddystoneScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EddystoneScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846B15BB206EC3C400979E24 /* EddystoneScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EddystoneScannerTests.swift; sourceTree = "<group>"; };
 		846B15BD206EC3C400979E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846B15C8206EC50700979E24 /* DispatchTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchTimer.swift; sourceTree = "<group>"; };
+		846B15C9206EC50700979E24 /* Eddystone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eddystone.swift; sourceTree = "<group>"; };
+		846B15CA206EC50700979E24 /* BeaconScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconScanner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		846B15A5206EC3C200979E24 /* EddystoneScanner */ = {
 			isa = PBXGroup;
 			children = (
+				846B15C7206EC41800979E24 /* Eddystone */,
 				846B15A6206EC3C200979E24 /* AppDelegate.swift */,
 				846B15A8206EC3C200979E24 /* ViewController.swift */,
 				846B15AA206EC3C200979E24 /* Main.storyboard */,
@@ -94,6 +101,16 @@
 				846B15BD206EC3C400979E24 /* Info.plist */,
 			);
 			path = EddystoneScannerTests;
+			sourceTree = "<group>";
+		};
+		846B15C7206EC41800979E24 /* Eddystone */ = {
+			isa = PBXGroup;
+			children = (
+				846B15CA206EC50700979E24 /* BeaconScanner.swift */,
+				846B15C8206EC50700979E24 /* DispatchTimer.swift */,
+				846B15C9206EC50700979E24 /* Eddystone.swift */,
+			);
+			path = Eddystone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +215,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				846B15A9206EC3C200979E24 /* ViewController.swift in Sources */,
+				846B15CC206EC50700979E24 /* Eddystone.swift in Sources */,
+				846B15CD206EC50700979E24 /* BeaconScanner.swift in Sources */,
+				846B15CB206EC50700979E24 /* DispatchTimer.swift in Sources */,
 				846B15A7206EC3C200979E24 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U3BWQUB8WH;
 				INFOPLIST_FILE = EddystoneScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +400,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U3BWQUB8WH;
 				INFOPLIST_FILE = EddystoneScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
